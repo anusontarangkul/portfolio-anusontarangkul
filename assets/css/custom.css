@@ -46,5 +46,28 @@ h2 {
   .cert {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+}
+
+.button {
+  cursor: pointer !important;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.projects {
+  height: auto;
+  width: auto;
+}
+
+.project-card {
+  background-color: #2f2f2f;
+}
+
+.project-text {
+  text-shadow: none;
+  color: #f3f3f3;
 }
