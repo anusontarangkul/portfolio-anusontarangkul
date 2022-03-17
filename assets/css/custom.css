@@ -59,15 +59,26 @@ a {
 }
 
 .projects {
-  height: auto;
+  height: 260px;
   width: auto;
 }
 
 .project-card {
   background-color: #2f2f2f;
+  /* height: 400px; */
 }
 
 .project-text {
   text-shadow: none;
   color: #f3f3f3;
+}
+
+.card {
+  transition: transform 0.5s, box-shadow 1s;
+  box-shadow: 0 30px 30px rgba(black);
+}
+
+.card:hover {
+  transform: scale(1.02) perspective(0px);
+  box-shadow: 0 10px 10px rgba(black);
 }
